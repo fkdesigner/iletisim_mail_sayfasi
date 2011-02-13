@@ -15,7 +15,7 @@ Twitter Sayfasi: www.twitter.com/fkdesigner
 Bir web siteniz var ve o web sitesinde bir kontakt sayfasi bulunmasini istiyorsunuz. O zaman bu iletisim.php dosyasini web hostunuza atin ve link verin. Size web siteniz uzerinden ulasmak isteyen ziyaretcileriniz linke tiklayarak bu sayfaya erisip size mesaj yollasinlar.
 
 
-KULLANIMI:
++KULLANIMI:
 
 Web hostunuza iletisim.php sayfasini atmadan once bu sayfayi not defteri ile acin. Sadece bir yerde aciklama satiri olarak //BURAYA MAIL@ADRESINIZ.UZANTISI'NI GIRIN seklinde bir aciklama girilmis. O satirin hemen altina belirtilen yere kendi mail adresinizi yazin ve hostunuza yukleyin.
 
