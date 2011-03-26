@@ -84,7 +84,7 @@ guvenlik_filtresi($mesaj);
 //Burada güvenlik sorusu eðer doðru cevaplanmýþsa mail gidiyor, cevaplanmamýþsa hata veriliyor;
 if ($guvenlik == "44"){
 //BU SATIRIN ALTINA ÝSTEDÝÐÝNÝZ@MAÝL.ADRESÝNÝN YERÝNE KENDÝ MAÝL ADRESÝNÝZÝ YAZIN
-$kime = 'fkdesigner@hotmail.com';
+$kime = 'istediginiz@mail.adresi';
 $basliklar = 'From:'."$e_posta"."\n";
 $basliklar .= 'Reply-To:'."$e_posta"."\n";
 $basliklar .= 'Content-type: text/html; charset=iso-8859-9'."\n";
