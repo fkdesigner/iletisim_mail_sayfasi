@@ -32,17 +32,17 @@ return;
 //guvenlik_filtresi: Kötü amaçlı ziyaretçiler için forma yazılan html kodlarınız temizler ve kod yazımında kullanılan temel karakterleri siler.
 function guvenlik_filtresi($deger){
 	$deger = strip_tags ($deger);
-	$deger = eregi_replace ("<", "", $variable);
-	$deger = eregi_replace (">", "", $variable);
-	$deger = eregi_replace ("/", "", $variable);
-	$deger = eregi_replace ("=", "", $variable);
-	$deger = eregi_replace ("'", "", $variable);
-	$deger = eregi_replace ('"', "", $variable);
-	$deger = eregi_replace ("{", "", $variable);
-	$deger = eregi_replace ("}", "", $variable);
-	$deger = eregi_replace ("&", "", $variable);
-	$deger = eregi_replace ("%", "", $variable);
-	$deger = eregi_replace ("$", "", $variable);
+	$deger = eregi_replace ("<", "", $deger);
+	$deger = eregi_replace (">", "", $deger);
+	$deger = eregi_replace ("/", "", $deger);
+	$deger = eregi_replace ("=", "", $deger);
+	$deger = eregi_replace ("'", "", $deger);
+	$deger = eregi_replace ('"', "", $deger);
+	$deger = eregi_replace ("{", "", $deger);
+	$deger = eregi_replace ("}", "", $deger);
+	$deger = eregi_replace ("&", "", $deger);
+	$deger = eregi_replace ("%", "", $deger);
+	$deger = eregi_replace ("$", "", $deger);
 return $deger;
 }
 
